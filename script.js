@@ -8,9 +8,9 @@ function toggleMode() {
   //substituir a img
   if (html.classList.contains("light")) {
     //se tiver o light mode,adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/igor.jpg")
   } else {
     //se tiver sem, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/igor.jpg")
   }
 }
